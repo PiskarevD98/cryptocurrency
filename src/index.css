@@ -1,0 +1,85 @@
+body{
+    font-family:  arial;
+    margin: 0;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.product {
+    margin-left: 0.5%;
+    width: 98%;
+    display: flex;
+    border: solid 5px black;
+    border-radius: 30px;
+    text-decoration:none ;
+    margin-bottom: 1%;
+    background-color: gainsboro;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+    align-self: flex-end;
+}
+
+.product_name,
+.product_name:hover,
+.product_name:active{
+    display: flex;
+    font-size: 2rem;
+    color:black;
+    margin-left: 1%;
+}
+
+.product_price,
+.product_price:hover,
+.product_price:active {
+    color:black;
+    font-size: 2rem;
+    text-decoration:none ;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.Head {
+    display: flex;
+}
+
+.Name {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 45%;
+}
+
+.btn {
+    font-size: 1rem;
+    font-family:  arial;
+    background-color: aqua;
+    width:5%;
+    height: 40%;
+    border: solid 2px black;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: aquamarine;
+}
+
+.Chart {
+    width:50%;
+    height: 80%;
+    margin-left: 25%;
+}
